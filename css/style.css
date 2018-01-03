@@ -1,0 +1,163 @@
+body {
+    background: url("../images/backgroundpizza.jpg") no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+* {
+    outline: 0;
+}
+
+main {
+    margin: 10px 50px;
+    width: 1000px;
+}
+
+.ingridient {
+    display: flex;
+    justify-content: space-between;
+}
+
+.areaOrder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pizzaOrder {
+    padding-top: 30px;
+    width: 400px;
+}
+
+.orderButton {
+    width: 200px;
+    height: 50px;
+    background: #FEF0CB;
+    border-radius: 20px;
+    color: #519B12;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.menuingr {
+    background: url("../images/menu.png") no-repeat;
+    width: 240px;
+    height: 450px;
+}
+
+.paperPrice {
+    width: 520px;
+    height: 450px;
+    background: url("../images/paperPrice.png") no-repeat;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sostav {
+    width: 400px;
+    height: 190px;
+    color: #519B12;
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.price {
+    width: 400px;
+    height: 50px;
+    color: #519B12;
+    font-size: 18px;
+    text-align: center;
+}
+.mark {
+    font-weight: bold; color: #519B12;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.pizzahalf {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background: url("../images/emptyplate.png");
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+}
+
+.pizzahalf > div {
+    width: 140px;
+    height: 140px;
+}
+
+h3 {
+    color: #519B12;
+    width: 240px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.menuitem1, .menuitem2, .menuitem3, .menuitem4 {
+    width: 200px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    width: 190px;
+    height: 25px;
+    color: #519B12;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.item2 {
+    width: 190px;
+    height: 25px;
+    color: #519B12;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.item3 {
+    width: 190px;
+    height: 25px;
+    color: #519B12;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.item4 {
+    width: 190px;
+    height: 25px;
+    color: #519B12;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.checkMarker{
+    background: url("../images/checkMarker.png");
+}
+.itemfocus:hover,
+.orderButton:hover {
+    cursor: pointer;
+}
+.bonappetit{
+    background: url("../images/bonappetit.png");
+    width: 600px;
+    height: 472px;
+    position: absolute;
+    margin: 150px 630px;
+    padding: 0;
+
+}
